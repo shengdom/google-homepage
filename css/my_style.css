@@ -1,0 +1,123 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.topnav a{
+    margin: 0px 4px 5% 4px;
+    text-decoration: none;
+    text-decoration-line: none;
+    color: black;
+}
+
+#topnav_left{
+    float: inline-start;
+}
+
+#topnav_right{
+    float: inline-end;
+}
+
+#topnav_right button{
+    color: #fff;
+    background-color: #4387fd;
+    border: 1px solid #4387fd;
+    outline: none;
+    border-radius: 5px;
+    padding: 5px 12px;
+    font-weight: bold;
+}
+
+.main{
+    padding-top: 20%;
+    text-align: center;
+}
+
+
+.google_search_bar{
+    width: 400px;
+    height: 25px;
+    margin-top: 2%;
+    border: 2px solid #dfe1e5;
+    border-radius: 25px;
+    position: relative;
+    display: inline-flex;
+    overflow: hidden;
+}
+
+.google_search_bar:hover{
+    box-shadow: 0px 0px 3px 0px #dfe1e5;
+}
+
+
+#search_bar{
+    border: 0;
+    border-radius: 25px;
+    flex: 1;
+}
+.search_icon{
+    padding: 14px;
+}
+
+.fa-search{
+    color: #dfe1e5;
+    position: absolute;
+    top: 50%;
+    left: 2%;
+    transform:translateY(-50%);
+}
+
+/*ASK ABOUT TRANSFORM AND LEFT/TOP AND IT'S RELATION*/
+
+#google-search_by_voice{
+    max-height: 80%;
+    height: 100%;
+    width: auto;
+    position: absolute;
+    top: 50%;
+    right: 1%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.google_buttons{
+    margin-top: 5%;
+}
+
+#search_button,#lucky_button {
+    padding: 5px 10px;
+    margin: 0px 4px 0px 4px;
+    border: 0;
+    background-color: #f2f2f2;
+    color:  #545454;
+    border-radius: 4px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    line-height: 40px;
+    background-color: #f2f2f2;
+    color: #545454;
+}
+
+.country{
+    border-top: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+}
+
+.country,.footer-information{
+    margin-left: 30px;
+}
+
+.footer-information a{
+    padding-right: 30px;
+    text-decoration: none;
+    text-decoration-line: none;
+    color: black;
+    font-size: 11px;
+    display: inline-block;
+}
