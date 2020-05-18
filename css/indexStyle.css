@@ -26,7 +26,7 @@ body{
     outline: none;
     border-radius: 5px;
     padding: 5px 12px;
-    font-weight: bold;
+    font-weight: unset;
 }
 
 .main{

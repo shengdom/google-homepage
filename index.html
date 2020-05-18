@@ -3,7 +3,7 @@
 <head>
 <title>Google Homepage</title>
 <meta charset="utf-8">
-<link rel="stylesheet" type="text/css" href="./css/my_style.css">
+<link rel="stylesheet" type="text/css" href="./css/indexStyle.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
@@ -26,15 +26,17 @@
         <div class="google_img">
             <img id="google_img" src="./images/google_logo.png" alt="Google Logo">
         </div>
-        <div class="google_search_bar">
-            <div class="search_icon"><i class="fa fa-search"></i></div>
-            <input id="search_bar" type="text" name="Search"></input>
-            <img id="google-search_by_voice" src="./images/google-search_by_voice.png" alt="Google Search By Voice">
-        </div>
-        <div class="google_buttons">
-            <button id="search_button" type="button">Google Search</button> </a>
-            <button id="lucky_button" type="button">I'm Feeling Lucky</button> </a>
-        </div>
+        <form action="results.html" method="GET">
+            <div class="google_search_bar">
+                <div class="search_icon"><i class="fa fa-search"></i></div>
+                <input id="search_bar" type="text" name="Search"></input>
+                <img id="google-search_by_voice" src="./images/google-search_by_voice.png" alt="Google Search By Voice">
+            </div>
+            <div class="google_buttons">
+                <input type="submit" id="search_button" value="Google Search"</input>
+                <input type="submit" id="lucky_button" value="I'm Feeling Lucky"</input>
+            </div>
+        </form>
     </div>
     <div class="footer">
         <div class="country">United Nations</div>
